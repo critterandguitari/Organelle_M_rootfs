@@ -188,9 +188,9 @@ install modules (might move these to the EYESY_OS repo), for now install
 for compiling, set gpu memory small (64), then increase after done
 
     cd
-    wget https://openframeworks.cc/versions/v0.11.0/of_v0.11.0_linuxarmv6l_release.tar.gz
-    mkdir openFrameworks && sudo tar vxfz of_v0.11.0_linuxarmv6l_release.tar.gz -C openFrameworks --strip-components 1
-    rm of_v0.11.0_linuxarmv6l_release.tar.gz 
+    wget https://openframeworks.cc/versions/v0.11.2/of_v0.11.2_linuxarmv6l_release.tar.gz
+    mkdir openFrameworks && sudo tar vxfz of_v0.11.2_linuxarmv6l_release.tar.gz -C openFrameworks --strip-components 1
+    rm of_v0.11.2_linuxarmv6l_release.tar.gz 
     sudo chown -R music:music openFrameworks
     cd openFrameworks/scripts/linux/debian
     sudo ./install_dependencies.sh && sudo ./install_codecs.sh && sudo apt-get clean
@@ -307,6 +307,6 @@ reboot and test
 
 on another machine dd and zip it up
 
-    sudo dd if=/dev/rdisk1 of=EYESY-v2.0.img bs=1m
-    zip -db EYESY-v2.0.img.zip EYESY-v2.0.img
+    sudo dd if=/dev/rdisk1 of=EYESY-v3.0.img bs=1m
+    zip -db EYESY-v2.0.img.zip EYESY-v3.0.img
 
