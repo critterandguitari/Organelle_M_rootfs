@@ -347,3 +347,6 @@ Add a rule to disable logging for music user:
 
 Defaults:music !syslog
 
+systemctl disable NetworkManager-wait-online.service
+
+
